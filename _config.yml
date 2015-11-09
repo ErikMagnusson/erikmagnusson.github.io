@@ -1,0 +1,15 @@
+# Site settings
+title: Studier på distans från Latinamerika
+email: em222pz@student.lnu.se
+description: > # this means to ignore newlines until "baseurl:"
+  Varför inte passa på att uppleva främmande länder samtidigt som man pluggar?
+  Det bestämde jag mig för att göra i somras och satte kurs mot Mexiko. Jag har
+  ingen färdig resrutt men min förhoppning är att studierna flyter på såpass väl
+  att jag kan resa vidare ändå till Sydamerika under vårterminen.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://yourdomain.com" # the base hostname & protocol for your site
+twitter_username:
+github_username:  ErikMagnusson
+
+# Build settings
+markdown: kramdown
