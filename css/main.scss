@@ -14,7 +14,7 @@ $base-line-height: 1.5;
 $spacing-unit:     30px;
 
 $text-color:       #111;
-$background-color: #ffcccc;
+$background-color: green;
 $brand-color:      #2a7ae2;
 
 $grey-color:       #828282;
@@ -24,7 +24,10 @@ $grey-color-dark:  darken($grey-color, 25%);
 $on-palm:          600px;
 $on-laptop:        800px;
 
-
+$darkgreen: darkgreen;
+$lightgreen: lightgreen;
+$list-background-color: $lightgreen;
+$list-border: solid 3px $darkgreen;
 
 // Using media queries with like this:
 // @include media-query($palm) {

@@ -1,0 +1,11 @@
+﻿/* TEAM */
+Author: Erik Magnusson
+Mail: em222pz@student.lnu.se
+From: Mexico
+
+/* SITE */
+Site Name: Studier på distans från Latinamerika
+Site URL: https://em222pz.github.io
+Last update: 2015/11/18
+Language: Swedish
+IDE: WebStorm
