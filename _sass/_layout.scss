@@ -3,18 +3,20 @@
  */
 .site-header {
     border-top: 3px solid $lightgreen;
-    border-bottom: 1px solid $lightgreen;
+    border-bottom: 3px solid $lightgreen;
     min-height: 56px;
+    background-color: $grey-color-dark;
 
     // Positioning context for the mobile navigation icon
     position: relative;
 }
 
 .site-title {
-    font-size: 26px;
+    font-size: 24px;
     line-height: 56px;
     letter-spacing: -1px;
     margin-bottom: 0;
+    text-shadow: $text-shadow;
 
     &,
     &:visited {
@@ -33,6 +35,7 @@
     .page-link {
         color: $lightgreen;
         line-height: $base-line-height;
+        text-shadow: $text-shadow;
 
         // Gaps between nav items, but not on the first one
         &:not(:first-child) {
@@ -120,18 +123,18 @@
 }
 
 .footer-col-1 {
-    width: -webkit-calc(35% - (#{$spacing-unit} / 2));
-    width:         calc(35% - (#{$spacing-unit} / 2));
+    width: -webkit-calc(34% - (#{$spacing-unit} / 2));
+    width:         calc(34% - (#{$spacing-unit} / 2));
 }
 
 .footer-col-2 {
-    width: -webkit-calc(20% - (#{$spacing-unit} / 2));
-    width:         calc(20% - (#{$spacing-unit} / 2));
+    width: -webkit-calc(33% - (#{$spacing-unit} / 2));
+    width:         calc(33% - (#{$spacing-unit} / 2));
 }
 
 .footer-col-3 {
-    width: -webkit-calc(45% - (#{$spacing-unit} / 2));
-    width:         calc(45% - (#{$spacing-unit} / 2));
+    width: -webkit-calc(33% - (#{$spacing-unit} / 2));
+    width:         calc(33% - (#{$spacing-unit} / 2));
 }
 
 @include media-query($on-laptop) {
@@ -178,6 +181,7 @@
         padding: 10px;
         background-color: $list-background-color;
         border: $list-border;
+        border-radius: 10px;
     }
 }
 
@@ -188,9 +192,13 @@
 
 .post-link {
     display: block;
-    font-size: 24px;
+    font-size: 16px;
 }
 
+.page-description {
+    color: $lightgreen;
+    text-shadow: $text-shadow;
+}
 
 
 /**
@@ -204,6 +212,8 @@
     font-size: 42px;
     letter-spacing: -1px;
     line-height: 1;
+    text-shadow: 1px 1px 1px $lightgreen;
+    color: darken($darkgreen, 8%);
 
     @include media-query($on-laptop) {
         font-size: 36px;
@@ -231,9 +241,29 @@
 
     h4 {
         font-size: 20px;
+        text-shadow: 1px 1px 1px $grey-color-dark;
+        color: darken($darkgreen, 12%);
 
         @include media-query($on-laptop) {
             font-size: 18px;
         }
     }
+
+    p {
+        color: white;
+        text-shadow: $text-shadow;
+    }
+
+}
+
+.post-meta-meta {
+    font-size: $small-font-size;
+    color: $lightgreen;
+    text-shadow: $text-shadow
+}
+
+.about {
+    float: right;
+    height: 250px;
+    padding-left: 20px;
 }

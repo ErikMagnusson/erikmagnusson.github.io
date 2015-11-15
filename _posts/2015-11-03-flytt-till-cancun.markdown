@@ -2,7 +2,7 @@
 layout: post
 title:  "Flytt till Cancún"
 date:   2015-11-03
-categories: Mexiko
+categories: blog
 ---
 Efter två månader i Mérida kände jag att det var dags att flytta vidare. Det blev en knappt fem timmar lång bussresa
 rakt österut till Cancún.
@@ -17,8 +17,3 @@ Så här ser min casita ut. Spartanskt så det förslår men vad mer behöver ma
 säng och ett par romaner.
 
 ![Mitt hus](/pics/hus.jpg)
-
-Min lilla studio är byggd ovanpå ett annat hus vilket ger mig en väldigt stor terrass. Om än kanske inte så
-jätteinbjudande vid första anblicken.
-
-![Min terrass](/pics/hus2.jpg)
