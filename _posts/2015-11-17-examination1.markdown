@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Examination 1"
-date:   2015-11-18
+date:   2015-11-17
 categories: examinationer
 ---
 
@@ -33,7 +33,7 @@ datum för sensaste uppdateringstillfället.
 
 #### Disqus
 För att folk ska kunna kommentera mina inlägg så la jag till den funktionen med hjälp av Disqus. Allt som behövde göras
-var att registrera ett konto hos dem och sen kopiera in ett färdiggenererad kodavsnitt till min sidmall. 
+var att registrera ett konto hos dem och sen kopiera in ett färdiggenererat kodavsnitt till min sidmall. 
 
 #### Open Graph
 Genom att lägga till metataggar i headdelen av en webbsida kan man skapa ett "graph object" som används som representation
